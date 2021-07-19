@@ -1,0 +1,16 @@
+# Summary
+
+- [Prologue](Prologue.md)
+- [Discord](Discord/HUH.md)
+    - [How to retrieve IDs](Discord/ID.md)
+    - [How to use the timestamp markdown](Discord/Timestamp.md)
+- [Shirin](Shirin/HUH.md)
+    - [FAQ](Shirin/FAQ.md)
+    - [Usage](Shirin/Usage/_.md)
+        - [Command Arguments](Shirin/Usage/Command_Arguments.md)
+        - [Command Flags](Shirin/Usage/Command_Flags.md)
+        - [Paginated Responses](Shirin/Usage/Paginated_Responses.md)
+        - [Misconduct](Shirin/Usage/Misconduct.md)
+    - [Shoutouts](Shirin/Shoutouts.md)
+    - [MEE6 Support Public Notice](Shirin/MEE6_Support_Public_Notice.md)
+- [Epilogue](Epilogue.md)
