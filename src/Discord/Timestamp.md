@@ -1,4 +1,4 @@
-# How to use the timestamp markdown
+# Timestamp Markdown
 
 Timestamp markdown is a rather "internationalized" way of displaying date and time where the information is rendered according to timezone and locale of the user. which is what timestamp field of [embed objects](https://discord.com/developers/docs/resources/channel#embed-object) does. (for those of you who are familiar with structure of embeds)
 

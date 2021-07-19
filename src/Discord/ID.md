@@ -1,4 +1,4 @@
-# How to retrieve IDs
+# Retrieving IDs
 
 First, you have to make sure you have developer mode is enabled.
 
