@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="Prologue.html"><strong aria-hidden="true">1.</strong> Prologue</a></li><li class="chapter-item expanded "><a href="Discord/HUH.html"><strong aria-hidden="true">2.</strong> Discord</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Discord/ID.html"><strong aria-hidden="true">2.1.</strong> How to retrieve IDs</a></li><li class="chapter-item expanded "><a href="Discord/Timestamp.html"><strong aria-hidden="true">2.2.</strong> How to use the timestamp markdown</a></li></ol></li><li class="chapter-item expanded "><a href="Shirin/HUH.html"><strong aria-hidden="true">3.</strong> Shirin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Shirin/FAQ.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/_.html"><strong aria-hidden="true">3.2.</strong> Usage</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Shirin/Usage/Command_Arguments.html"><strong aria-hidden="true">3.2.1.</strong> Command Arguments</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Command_Flags.html"><strong aria-hidden="true">3.2.2.</strong> Command Flags</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Paginated_Responses.html"><strong aria-hidden="true">3.2.3.</strong> Paginated Responses</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Misconduct.html"><strong aria-hidden="true">3.2.4.</strong> Misconduct</a></li></ol></li><li class="chapter-item expanded "><a href="Shirin/Shoutouts.html"><strong aria-hidden="true">3.3.</strong> Shoutouts</a></li><li class="chapter-item expanded "><a href="Shirin/MEE6_Support_Public_Notice.html"><strong aria-hidden="true">3.4.</strong> MEE6 Support Public Notice</a></li></ol></li><li class="chapter-item expanded "><a href="Epilogue.html"><strong aria-hidden="true">4.</strong> Epilogue</a></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="Prologue.html"><strong aria-hidden="true">1.</strong> Prologue</a></li><li class="chapter-item expanded "><a href="Discord/HUH.html"><strong aria-hidden="true">2.</strong> Discord</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Discord/ID.html"><strong aria-hidden="true">2.1.</strong> How to retrieve IDs</a></li><li class="chapter-item expanded "><a href="Discord/Timestamp.html"><strong aria-hidden="true">2.2.</strong> How to use the timestamp markdown</a></li><li class="chapter-item expanded "><a href="Discord/Limitations.html"><strong aria-hidden="true">2.3.</strong> Limitations</a></li></ol></li><li class="chapter-item expanded "><a href="Shirin/HUH.html"><strong aria-hidden="true">3.</strong> Shirin</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Shirin/FAQ.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/_.html"><strong aria-hidden="true">3.2.</strong> Usage</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Shirin/Usage/Command_Arguments.html"><strong aria-hidden="true">3.2.1.</strong> Command Arguments</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Command_Flags.html"><strong aria-hidden="true">3.2.2.</strong> Command Flags</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Paginated_Responses.html"><strong aria-hidden="true">3.2.3.</strong> Paginated Responses</a></li><li class="chapter-item expanded "><a href="Shirin/Usage/Misconduct.html"><strong aria-hidden="true">3.2.4.</strong> Misconduct</a></li></ol></li><li class="chapter-item expanded "><a href="Shirin/Shoutouts.html"><strong aria-hidden="true">3.3.</strong> Shoutouts</a></li><li class="chapter-item expanded "><a href="Shirin/MEE6_Support_Public_Notice.html"><strong aria-hidden="true">3.4.</strong> MEE6 Support Public Notice</a></li></ol></li><li class="chapter-item expanded "><a href="Epilogue.html"><strong aria-hidden="true">4.</strong> Epilogue</a></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -188,6 +188,29 @@ msg.channel.create_message(f&quot;&lt;t:{seconds}&gt;&quot;)
 # or styled
 msg.channel.create_message(f&quot;&lt;t:{seconds}:F&gt;&quot;)
 </code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="limitations"><a class="header" href="#limitations">Limitations</a></h1>
+<p>Almost everything in the platform has a limit, when you exceed them sometimes you are informed about it with a user friendly message and sometimes not - but it's not impossible the figure out the error in which case but it's tad technical. (Hint: Developer Console)</p>
+<table><thead><tr><th>Entities</th><th>Limit</th></tr></thead><tbody>
+<tr><td>Servers*</td><td><code>100</code></td></tr>
+<tr><td>Friends</td><td><code>1,000</code></td></tr>
+<tr><td>Pins (per channel)</td><td><code>50</code></td></tr>
+<tr><td>Recipients (per DM channel)</td><td><code>10</code></td></tr>
+<tr><td>Server Roles</td><td><code>250</code></td></tr>
+<tr><td>Webhooks (per channel)</td><td><code>10</code></td></tr>
+<tr><td>(Static) Emojis**</td><td><code>50</code></td></tr>
+<tr><td>Animated Emojis**</td><td><code>50</code></td></tr>
+<tr><td>Emoji Reactions (per message)</td><td><code>20</code></td></tr>
+<tr><td>Server Channels***</td><td><code>500</code></td></tr>
+<tr><td>Attachments (per message)****</td><td><code>10</code></td></tr>
+<tr><td>Invites</td><td><code>1,000</code></td></tr>
+<tr><td>Server Members*****</td><td><code>250,000</code></td></tr>
+<tr><td>Server Discovery Categories</td><td><code>5</code></td></tr>
+</tbody></table>
+<p>* <code>200</code> for nitro subscribers</p>
+<p>** By default servers are limited to <code>100</code> emojis (animated emojis included) but servers are able to bump this limit by being <a href="https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-">boosted</a></p>
+<p>*** This limitation covers <em>all</em> kinds of channels: text, voice, stage, announcement and even categories! (categories are considered <em>parent</em> channels) that being said, all of them combined must not exceed the said limit</p>
+<p>**** Currently this is only a concern in mobile apps, desktop client doesn't allow sending more than one attachment per message</p>
+<p>***** By default members are capped at <code>250,000</code>, servers owners would need to <a href="https://support.discord.com/hc/en-us/articles/360052841734-Server-Member-Cap-Increases-">contact discord</a> for member cap increase when they reach the said limit</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="huh-1"><a class="header" href="#huh-1">HUH</a></h1>
 <p>Shirin is a private discord that fulfills countless variety of tasks, Initially it was a simple butler bot for a faction of a <a href="https://www.sa-mp.com/">SA:MP</a> RPG server and later evolved, Proving useful to accomplishing rather complex things.</p>
 <p>She aids domestic communities, namely <a href="https://discord.gg/mee6">MEE6 Support</a>.</p>
