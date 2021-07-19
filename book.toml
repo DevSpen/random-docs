@@ -5,3 +5,8 @@ multilingual = false
 src = "src"
 title = "Random Docs"
 description = "Covering some HOWs and HUHs of various things"
+
+[output.html]
+default-theme = "rust"
+git-repository-url = "https://github.com/Alirezarfe/random-docs"
+edit-url-template = "https://github.com/Alirezarfe/random-docs/edit/main/{path}"
