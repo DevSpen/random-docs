@@ -5,7 +5,7 @@
     - [Retrieving IDs](Discord/ID.md)
     - [Timestamp Markdown](Discord/Timestamp.md)
     - [Limitations](Discord/Limitations.md)
-    - [Creating Bots](Discord/Bots.md)
+    - [Creating Bots](Discord/Bots/HUH.md)
 - [Shirin](Shirin/HUH.md)
     - [FAQ](Shirin/FAQ.md)
     - [Usage](Shirin/Usage/_.md)
