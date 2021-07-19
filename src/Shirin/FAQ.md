@@ -33,4 +33,4 @@ She also ignores commands that are invoked outside *command only channels* unles
 → Reminder that Shirin is a private bot and she was never really intended to be a public service so user friendliness isn't really focused on unless in special circumstances.
 
 ### What happened to the public todo and changelog?
-→ Both have been deprecated from this documentation, public changelogs will be announced in the discord server from now on, if you would like to stay in touch feel free to use the discord server invite in contact page and opt in to `@shirin updates` in the `#role-room`.
+→ Both have been deprecated from this documentation, public changelogs will be announced in the discord server from now on, if you would like to stay in touch feel free to use the discord server invite in [Epilogue](../Epilogue.md) and opt in to `@shirin updates` in the `#role-room` channel.
