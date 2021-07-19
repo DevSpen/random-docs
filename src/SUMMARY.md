@@ -6,6 +6,7 @@
     - [Timestamp Markdown](Discord/Timestamp.md)
     - [Limitations](Discord/Limitations.md)
     - [Creating Bots](Discord/Bots/HUH.md)
+        - [Enabling Privileged Intents](Discord/Bots/Intents.md)
 - [Shirin](Shirin/HUH.md)
     - [FAQ](Shirin/FAQ.md)
     - [Usage](Shirin/Usage/_.md)
