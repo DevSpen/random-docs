@@ -8,11 +8,11 @@ Either of the following notations are acceptable:
 
 `<t:EPOCH_SECONDS>` → e.g <t:1472750028>
 
-![](https://cdn.discordapp.com/attachments/652544869314854934/862699749652430868/timestamp_1.png)
+![Styleless timestamp preview](https://cdn.discordapp.com/attachments/652544869314854934/862699749652430868/timestamp_1.png)
 
 `<t:EPOCH_SECONDS:STYLE>` → e.g <t:1472750028:R>
 
-![](https://cdn.discordapp.com/attachments/652544869314854934/862699751602651156/timestamp_2.png)
+![Relative style timestamp preview](https://cdn.discordapp.com/attachments/652544869314854934/862699751602651156/timestamp_2.png)
 
 Here is a list of available styles from [discord documentation](https://discord.com/developers/docs/reference#message-formatting-timestamp-styles).
 

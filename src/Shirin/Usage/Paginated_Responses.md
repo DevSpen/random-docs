@@ -2,13 +2,13 @@
 
 Some commands may return paginated responses to evade invalid requests to discord due exceeding character limits in certain message fields, In this case Shirin will automatically add the following buttons in her message which will allow you to navigate through pages when clicked on:
 
-![goto_first](https://cdn.discordapp.com/emojis/857588155867463680.png?v=1&size=16 "Goto First") Jump to the first page\*
+![Goto First Button Preview](https://cdn.discordapp.com/emojis/857588155867463680.png?v=1&size=16 "Goto First") Jump to the first page\*
 
-![goto_prev](https://cdn.discordapp.com/emojis/857588155858288670.png?v=1&size=16 "Goto Previous") Go to the previous page
+![Goto Previous Button Preview](https://cdn.discordapp.com/emojis/857588155858288670.png?v=1&size=16 "Goto Previous") Go to the previous page
 
-![goto_next](https://cdn.discordapp.com/emojis/857588155851079690.png?v=1&size=16 "Goto Next") Go to the next page
+![Goto Next Button Preview](https://cdn.discordapp.com/emojis/857588155851079690.png?v=1&size=16 "Goto Next") Go to the next page
 
-![goto_last](https://cdn.discordapp.com/emojis/857588155817132052.png?v=1&size=16 "Goto Last") Jump to the last page\*
+![Goto Last Button Preview](https://cdn.discordapp.com/emojis/857588155817132052.png?v=1&size=16 "Goto Last") Jump to the last page\*
 
 *Shirin will add these buttons if there are more than 2 pages, This is only sensical
 
