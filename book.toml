@@ -1,7 +1,0 @@
-[book]
-authors = ["Alireza Rafiee"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Random Tutorials"
-description = "Covering some HOWs and HUHs of various things"
