@@ -4,6 +4,7 @@
 - [Discord](Discord/HUH.md)
     - [How to retrieve IDs](Discord/ID.md)
     - [How to use the timestamp markdown](Discord/Timestamp.md)
+    - [Limitations](Discord/Limitations.md)
 - [Shirin](Shirin/HUH.md)
     - [FAQ](Shirin/FAQ.md)
     - [Usage](Shirin/Usage/_.md)
