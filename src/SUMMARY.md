@@ -15,5 +15,5 @@
         - [Paginated Responses](Shirin/Usage/Paginated_Responses.md)
         - [Misconduct](Shirin/Usage/Misconduct.md)
     - [Shoutouts](Shirin/Shoutouts.md)
-    - [MEE6 Support Public Notice](Shirin/MEE6_Support_Public_Notice.md)
+    - [MEE6 Support](Shirin/MEE6_Support.md)
 - [Epilogue](Epilogue.md)
