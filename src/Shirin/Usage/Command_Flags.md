@@ -15,6 +15,7 @@ OR
 
 Things might not go as imagined if you approach like:
 > @Shirin --bar baz foo
+
 Here `baz foo` got consumed by the `--bar` flag, which is not our intent.
 
 So to put simply, If we are looking to simply pass *one word* to our flag we can just do so via `=` no matter if it's before our first argument or last. With `=value` we make it explicit that our flag should only capture `value` and stop looking for more.
