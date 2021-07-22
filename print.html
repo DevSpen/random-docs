@@ -195,25 +195,26 @@ msg.channel.create_message(f&quot;&lt;t:{seconds}:F&gt;&quot;)
 <p>Almost everything in the platform has a limit, when you exceed them sometimes you are informed about it with a user friendly message and sometimes not - but it's not impossible the figure out the error in which case but it's tad technical. (Hint: Developer Console)</p>
 <table><thead><tr><th>Entities</th><th>Limit</th></tr></thead><tbody>
 <tr><td>Servers*</td><td><code>100</code></td></tr>
-<tr><td>Friends</td><td><code>1,000</code></td></tr>
+<tr><td>Relationships**</td><td><code>1,000</code></td></tr>
 <tr><td>Pins (per channel)</td><td><code>50</code></td></tr>
 <tr><td>Recipients (per DM channel)</td><td><code>10</code></td></tr>
 <tr><td>Server Roles</td><td><code>250</code></td></tr>
 <tr><td>Webhooks (per channel)</td><td><code>10</code></td></tr>
-<tr><td>(Static) Emojis**</td><td><code>50</code></td></tr>
-<tr><td>Animated Emojis**</td><td><code>50</code></td></tr>
+<tr><td>(Static) Emojis***</td><td><code>50</code></td></tr>
+<tr><td>Animated Emojis***</td><td><code>50</code></td></tr>
 <tr><td>Emoji Reactions (per message)</td><td><code>20</code></td></tr>
-<tr><td>Server Channels***</td><td><code>500</code></td></tr>
-<tr><td>Attachments (per message)****</td><td><code>10</code></td></tr>
-<tr><td>Invites</td><td><code>1,000</code></td></tr>
-<tr><td>Server Members*****</td><td><code>250,000</code></td></tr>
+<tr><td>Server Channels****</td><td><code>500</code></td></tr>
+<tr><td>Attachments (per message)*****</td><td><code>10</code></td></tr>
+<tr><td>Invites (per server)</td><td><code>1,000</code></td></tr>
+<tr><td>Server Members******</td><td><code>250,000</code></td></tr>
 <tr><td>Server Discovery Categories</td><td><code>5</code></td></tr>
 </tbody></table>
 <p>* <code>200</code> for nitro subscribers</p>
-<p>** By default servers are limited to <code>100</code> emojis (animated emojis included) but servers are able to bump this limit by being <a href="https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-">boosted</a></p>
-<p>*** This limitation covers <em>all</em> kinds of channels: text, voice, stage, announcement and even categories! (categories are considered <em>parent</em> channels) that being said, all of them combined must not exceed the said limit</p>
-<p>**** Currently this is only a concern in mobile apps, desktop client doesn't allow sending more than one attachment per message</p>
-<p>***** By default members are capped at <code>250,000</code>, servers owners would need to <a href="https://support.discord.com/hc/en-us/articles/360052841734-Server-Member-Cap-Increases-">contact discord</a> for member cap increase when they reach the said limit</p>
+<p>** Relationships include Friends, Blocked users, Incoming and Outgoing friend requests</p>
+<p>***  By default servers are limited to <code>100</code> emojis (animated emojis included) but servers are able to bump this limit by being <a href="https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-">boosted</a></p>
+<p>****  This limitation covers <em>all</em> kinds of channels: text, voice, stage, announcement and even categories! (categories are considered <em>parent</em> channels) that being said, all of them combined must not exceed the said limit</p>
+<p>*****  Currently this is only a concern in mobile apps, desktop client doesn't allow sending more than one attachment per message</p>
+<p>******  By default members are capped at <code>250,000</code>, servers owners would need to <a href="https://support.discord.com/hc/en-us/articles/360052841734-Server-Member-Cap-Increases-">contact discord</a> for member cap increase when they reach the said limit</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="huh-2"><a class="header" href="#huh-2">HUH</a></h1>
 <p>A walkthrough for creating a basic discord bot.</p>
 <p><strong>TO BE UPDATED</strong></p>
@@ -255,7 +256,7 @@ msg.channel.create_message(f&quot;&lt;t:{seconds}:F&gt;&quot;)
 <h3 id="why-is-the-bot-not-so-user-friendly"><a class="header" href="#why-is-the-bot-not-so-user-friendly">Why is the bot not so user friendly?</a></h3>
 <p>→ Reminder that Shirin is a private bot and she was never really intended to be a public service so user friendliness isn't really focused on unless in special circumstances.</p>
 <h3 id="what-happened-to-the-public-todo-and-changelog"><a class="header" href="#what-happened-to-the-public-todo-and-changelog">What happened to the public todo and changelog?</a></h3>
-<p>→ Both have been deprecated from this documentation, public changelogs will be announced in the discord server from now on, if you would like to stay in touch feel free to use the discord server invite in <a href="Shirin/../Epilogue.html">Epilogue</a> and opt in to <code>@shirin updates</code> in the <code>#role-room</code> channel.</p>
+<p>→ Both have been deprecated from this documentation, public changelogs will be announced in the discord server from now on, if you would like to stay in touch feel free to use the discord server invite in <a href="Shirin/../Epilogue.html">Epilogue</a> and opt in to <code>@shirin updates</code> in the <code>#role-room</code> channel. The public todo was moved to a <a href="https://trello.com/b/rceq47WA/shirin-bot">trello board</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="usage"><a class="header" href="#usage">Usage</a></h1>
 <p>Following notation represents a basic command:</p>
 <p><code>&lt;prefix&gt;&lt;command&gt;</code></p>
