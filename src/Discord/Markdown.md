@@ -34,15 +34,21 @@ will result in:
 ---
 
 \`\`\`\<block language\>
+
 text
+
 \`\`\`
 
 For example:
 
 \`\`\`py
+
 """
+
 green text
+
 """
+
 \`\`\`
 
 will result in:
@@ -62,7 +68,9 @@ will result in:
 ---
 
 \>\>\> multi
+
 line
+
 quote
 
 will result in:
