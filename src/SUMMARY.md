@@ -3,7 +3,7 @@
 - [Prologue](Prologue.md)
 - [Discord](Discord/HUH.md)
     - [Retrieving IDs](Discord/ID.md)
-    - [Timestamp Markdown](Discord/Timestamp.md)
+    - [Markdown](Discord/Markdown.md)
     - [Limitations](Discord/Limitations.md)
     - [Creating Bots](Discord/Bots/HUH.md)
         - [Enabling Privileged Intents](Discord/Bots/Intents.md)
