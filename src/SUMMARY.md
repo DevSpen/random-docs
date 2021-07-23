@@ -16,4 +16,5 @@
         - [Misconduct](Shirin/Usage/Misconduct.md)
     - [Shoutouts](Shirin/Shoutouts.md)
     - [MEE6 Support](Shirin/MEE6_Support.md)
+- [Voice Acting](VA/HUH.md)
 - [Epilogue](Epilogue.md)
