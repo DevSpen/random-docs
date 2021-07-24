@@ -6,7 +6,7 @@
 | ----- | ----- |
 | \*italics\* OR \_italics\_ | *italics* |
 | \*\*bold\*\* | **bold** |
-| \_\_underline\_\_ | __underline__ |
+| \_\_underline\_\_ | <ins>underline</ins> |
 | \~\~strikethrough\~\~ | ~~strikethrough~~ |
 
 ## Combinations Example
@@ -15,7 +15,9 @@
 | ----- | ----- |
 | \*\*\*italic bold\*\*\* | ***italic bold*** |
 | \*\*\~\~strikethrough bold\~\~\*\* | **~~strikethrough bold~~** |
-| \_\_\*\*\*underline bold italics\*\*\*\_\_ | __***underline bold italics***__ |
+| \_\_\*\*\*underline bold italics\*\*\*\_\_ | <ins>***underline bold italics***</ins> |
+
+---
 
 ## Code Blocks
 
@@ -23,67 +25,73 @@
 | ----- | ----- |
 | \`inline block\` | `inline block` |
 
-### Multiline Blocks
+### Multiline Code Blocks
+
+#### How to
 
 \`\`\`text\`\`\`
 
-will result in:
+#### Result
 
 ```text```
 
----
+### Multiline Code Blocks with Syntax Highlighting
 
-\`\`\`\<block language\>
-
-text
-
+\`\`\`\<block language\> \
+text \
 \`\`\`
 
-For example:
+#### Example
 
-\`\`\`py
-
-"""
-
-green text
-
-"""
-
+\`\`\`py \
+""" \
+green text \
+""" \
 \`\`\`
 
-will result in:
+#### Result
 
 ![Code Block with syntax highlighting preview](https://cdn.discordapp.com/attachments/652544869314854934/868241690215981136/block.png)
 
 Refer to <https://highlightjs.org/static/demo/> for a list of available block languages.
 
+---
+
 ## Block Quotes
+
+#### How to
 
 \> single line quote
 
-will result in:
+#### Result
 
 > single line quote
 
----
+### Multiline Block Quotes
 
-\>\>\> multi
+#### How to
 
-line
-
+\>\>\> multi \
+line \
 quote
 
-will result in:
+#### Result
 
 ![Multiline Quote Preview](https://cdn.discordapp.com/attachments/652544869314854934/868242564929708122/quote.png)
 
+---
+
 ## Spoilers
+
+#### How to
 
 \|\|spoilered message\|\|
 
-will result in:
+#### Result
 
 ![Spoilered Message Preview](https://cdn.discordapp.com/attachments/652544869314854934/868243296785428510/spoiler.gif)
+
+---
 
 ## Timestamp
 
@@ -133,6 +141,8 @@ msg.channel.create_message(f"<t:{seconds}>")
 # or styled
 msg.channel.create_message(f"<t:{seconds}:F>")
 ```
+
+---
 
 ## Escaping
 
