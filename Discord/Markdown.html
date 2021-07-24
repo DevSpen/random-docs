@@ -154,52 +154,60 @@
 <table><thead><tr><th>How to</th><th>Result</th></tr></thead><tbody>
 <tr><td>*italics* OR _italics_</td><td><em>italics</em></td></tr>
 <tr><td>**bold**</td><td><strong>bold</strong></td></tr>
-<tr><td>__underline__</td><td><strong>underline</strong></td></tr>
+<tr><td>__underline__</td><td><ins>underline</ins></td></tr>
 <tr><td>~~strikethrough~~</td><td><del>strikethrough</del></td></tr>
 </tbody></table>
 <h2 id="combinations-example"><a class="header" href="#combinations-example">Combinations Example</a></h2>
 <table><thead><tr><th>How to</th><th>Result</th></tr></thead><tbody>
 <tr><td>***italic bold***</td><td><em><strong>italic bold</strong></em></td></tr>
 <tr><td>**~~strikethrough bold~~**</td><td><strong><del>strikethrough bold</del></strong></td></tr>
-<tr><td>__***underline bold italics***__</td><td><strong><em><strong>underline bold italics</strong></em></strong></td></tr>
+<tr><td>__***underline bold italics***__</td><td><ins><em><strong>underline bold italics</strong></em></ins></td></tr>
 </tbody></table>
+<hr />
 <h2 id="code-blocks"><a class="header" href="#code-blocks">Code Blocks</a></h2>
 <table><thead><tr><th>How to</th><th>Result</th></tr></thead><tbody>
 <tr><td>`inline block`</td><td><code>inline block</code></td></tr>
 </tbody></table>
-<h3 id="multiline-blocks"><a class="header" href="#multiline-blocks">Multiline Blocks</a></h3>
+<h3 id="multiline-code-blocks"><a class="header" href="#multiline-code-blocks">Multiline Code Blocks</a></h3>
+<h4 id="how-to"><a class="header" href="#how-to">How to</a></h4>
 <p>```text```</p>
-<p>will result in:</p>
+<h4 id="result"><a class="header" href="#result">Result</a></h4>
 <p><code>text</code></p>
-<hr />
-<p>```&lt;block language&gt;</p>
-<p>text</p>
-<p>```</p>
-<p>For example:</p>
-<p>```py</p>
-<p>&quot;&quot;&quot;</p>
-<p>green text</p>
-<p>&quot;&quot;&quot;</p>
-<p>```</p>
-<p>will result in:</p>
+<h3 id="multiline-code-blocks-with-syntax-highlighting"><a class="header" href="#multiline-code-blocks-with-syntax-highlighting">Multiline Code Blocks with Syntax Highlighting</a></h3>
+<p>```&lt;block language&gt; <br />
+text <br />
+```</p>
+<h4 id="example"><a class="header" href="#example">Example</a></h4>
+<p>```py <br />
+&quot;&quot;&quot; <br />
+green text <br />
+&quot;&quot;&quot; <br />
+```</p>
+<h4 id="result-1"><a class="header" href="#result-1">Result</a></h4>
 <p><img src="https://cdn.discordapp.com/attachments/652544869314854934/868241690215981136/block.png" alt="Code Block with syntax highlighting preview" /></p>
 <p>Refer to <a href="https://highlightjs.org/static/demo/">https://highlightjs.org/static/demo/</a> for a list of available block languages.</p>
+<hr />
 <h2 id="block-quotes"><a class="header" href="#block-quotes">Block Quotes</a></h2>
+<h4 id="how-to-1"><a class="header" href="#how-to-1">How to</a></h4>
 <p>&gt; single line quote</p>
-<p>will result in:</p>
+<h4 id="result-2"><a class="header" href="#result-2">Result</a></h4>
 <blockquote>
 <p>single line quote</p>
 </blockquote>
-<hr />
-<p>&gt;&gt;&gt; multi</p>
-<p>line</p>
-<p>quote</p>
-<p>will result in:</p>
+<h3 id="multiline-block-quotes"><a class="header" href="#multiline-block-quotes">Multiline Block Quotes</a></h3>
+<h4 id="how-to-2"><a class="header" href="#how-to-2">How to</a></h4>
+<p>&gt;&gt;&gt; multi <br />
+line <br />
+quote</p>
+<h4 id="result-3"><a class="header" href="#result-3">Result</a></h4>
 <p><img src="https://cdn.discordapp.com/attachments/652544869314854934/868242564929708122/quote.png" alt="Multiline Quote Preview" /></p>
+<hr />
 <h2 id="spoilers"><a class="header" href="#spoilers">Spoilers</a></h2>
+<h4 id="how-to-3"><a class="header" href="#how-to-3">How to</a></h4>
 <p>||spoilered message||</p>
-<p>will result in:</p>
+<h4 id="result-4"><a class="header" href="#result-4">Result</a></h4>
 <p><img src="https://cdn.discordapp.com/attachments/652544869314854934/868243296785428510/spoiler.gif" alt="Spoilered Message Preview" /></p>
+<hr />
 <h2 id="timestamp"><a class="header" href="#timestamp">Timestamp</a></h2>
 <p>Timestamp markdown is a rather &quot;internationalized&quot; way of displaying date and time where the information is rendered according to timezone and locale of the user. which is what timestamp field of <a href="https://discord.com/developers/docs/resources/channel#embed-object">embed objects</a> does. (for those of you who are familiar with structure of embeds)</p>
 <p>Just use a tool <a href="https://www.epochconverter.com/">like this</a> to retrieve the unix epoch time and insert it in the markdown.</p>
@@ -234,6 +242,7 @@ msg.channel.create_message(f&quot;&lt;t:{seconds}&gt;&quot;)
 # or styled
 msg.channel.create_message(f&quot;&lt;t:{seconds}:F&gt;&quot;)
 </code></pre>
+<hr />
 <h2 id="escaping"><a class="header" href="#escaping">Escaping</a></h2>
 <p>If you are looking to display the characters in a literal manner, you're gonna have to escape them by prepending them with backslash.</p>
 <p>For example: \`inline block\` would result in `inline block`, \~\~strikethrough\~\~ in ~~strikethrough~~ and so on.</p>
