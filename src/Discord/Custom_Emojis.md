@@ -1,11 +1,11 @@
-# Custom Emojis 101
-Emojis are a way to express yourself in a more visual format, rather than just plain text. Discord offers a range of default emojis; like 😂. But, you can also make your own ✨ custom emojis ✨ for a server.
+# Custom Emojis
+Emojis are a way to express yourself in a more visual format, rather than just plain text. Discord offers a range of default emojis like 😂. But, you can also make your own ✨ custom emojis ✨ for a server.
 
 ### Emoji Types
 There are two emoji types: Static and Animated.
 
 * **Static** means the emoji doesn't move. Static emojis are generally uploaded with `.png` or `.jpg`/`.jpeg` files.
-* **Animated** means the emoji does move _\(hints, its animated\)_. Animated emojis are generally uploaded with `.gif` files.
+* **Animated** means the emoji does move _(hints, its animated)_. Animated emojis are generally uploaded with `.gif` files.
 
 ### Limitations
 
@@ -18,10 +18,10 @@ There are two emoji types: Static and Animated.
 
 By default, every server has 50 static and 50 animated custom emoji slots. However, you can earn more emoji slots by obtaining boost levels.
 
-* Level 0 _\(no level\)_: 50 Static and 50 Animated Emoji Slots
-* Level 1: +50 Emoji Slots _\(for a total of 100 emojis per emoji type\)_
-* Level 2: +50 Emoji Slots _\(for a total of 150 emojis per emoji type\)_
-* Level 3: +100 Emoji Slots _\(for a total of 250 emojis per emoji type\)_
+* Level 0 _(no level)_: 50 Static and 50 Animated Emoji Slots
+* Level 1: +50 Emoji Slots _(for a total of 100 emojis per emoji type)_
+* Level 2: +50 Emoji Slots _(for a total of 150 emojis per emoji type)_
+* Level 3: +100 Emoji Slots _(for a total of 250 emojis per emoji type)_
 
 ### Creating Custom Emojis
 
