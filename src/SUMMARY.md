@@ -4,6 +4,8 @@
 - [Discord](Discord/HUH.md)
     - [Retrieving IDs](Discord/ID.md)
     - [Markdown](Discord/Markdown.md)
+    - [Discriminators](Discord/Discriminators.md)
+    - [Custom Emojis](Discord/Custom_Emojis.md)
     - [Limitations](Discord/Limitations.md)
     - [Creating Bots](Discord/Bots/HUH.md)
         - [Enabling Privileged Intents](Discord/Bots/Intents.md)
